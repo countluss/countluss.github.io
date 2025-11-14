@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+    --color-bg: #292525;
+    --color-secondary: #B9BA90;
+    --color-teritiary: #312E2E;
+    --color-icon: #1F1F1C;
+    --color-stacks: #725555;
+}
+
+:root {
+    --iconHeight: 111px;
+    --iconWidth: 111px;
+    --half: 56px;
+    --borderRadius: var(--half);
+}
+
+
+.jetbrains-mono-normal {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
